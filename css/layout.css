@@ -3,9 +3,11 @@
     margin: 0;
     padding: 0;
 }
-.container {
-    background-color: #ddd;
-    border-radius: 12px;
-    margin: 20px auto;
-    width: 70%;
-  }
+
+/* .container { 
+     /* background-color: cadetblue; */
+    /* border-radius: 12px;
+    margin: 100%;
+    width: 100%;
+  }  */
+   
