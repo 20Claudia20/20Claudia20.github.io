@@ -6,23 +6,43 @@
  
  body , html{
      height: 100%;
+     color: turquoise;
  }
-  footer{
-    padding: 1 rem;
-    text-align:  center;
+
+ footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     color: aquamarine;
+    text-align: center; 
 }
 
-/* .header__nav__list{
-    color: yellowgreen;
-} */
-.header{
+header {
     text-align: center;
+}
+
+/* h1{
+    text-align: right;
+    padding: 14px, 25px;
+    margin: 0 auto;
+    height: 50%;
+    width: 100%;
+  } */
+nav , a {
+    text-align: right;
     color: aquamarine;
+    
 } 
+
+ul{
+    list-style-type: none;
+}
  .container { 
     background-image: url("/css/images/downtown-columbus-ohio.jpg"); 
     height: 100%;
+    background: opacity;
+
  }
     /* background-color: cadetblue; */
   

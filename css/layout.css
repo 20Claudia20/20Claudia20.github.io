@@ -4,6 +4,20 @@
     padding: 0;
 }
 
+footer {
+  display: flex;
+  margin-left: 0.5rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+h1{
+  text-align: right;
+  padding: 14px, 25px;
+  margin: 0 auto;
+  height: 50%;
+  width: 100%;
+}
 /* .container { 
      /* background-color: cadetblue; */
     /* border-radius: 12px;
