@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Claudia Barrales</title>
+    <link href="/css/layout.css" rel="layouts" type="text/css" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <!-- <link href="/css/images/downtown-columbus-ohio.jpg" rel="downtown-columbus-ohio" /> -->
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <div class="header__title">
+        <h1>Claudia Barrales</h1>
+        <h2>Software Developer</h2>
+      </div>
+        <nav>
+          <!-- <ul class="nav__list">
+            <li><a href="/AboutMe.html">About Me</a></li>
+            <li><a href="/Contact.html">Contact Me</a></li>
+            <li><a href="/skills.html">Skills</a></li>
+            <li><a href="/Projects.html">Projects</a></li>
+          </ul> -->
+          <button type="button" class="collapsible">About Me  </button>
+          <div class="content">
+            <p> this is all about me section</p>
+          </div>
+          <button type="button" class="collapsible">Contact Me  </button>
+          <div class="content">
+            <p> this section is my contact info</p>
+          </div>
+        
+          <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+
+            for (i= 0; 1 < coll.length; i ++){
+              coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display == "block"){
+                  content.style.display = "none";
+                } else {
+                  content.style.display = "block";
+                }
+              });
+            }
+          </script>
+          
+            
+        </nav>
+      </header>
+      <img src="/css/images/ClaudiaPic.jpg" alt="Picture of Claudia" width="200" height="450" align="left"/>
+    <footer>
+      <p>©Claudia Barrales 2020</p>
+    </footer>
+  </div>
+  </body>
+</html>
