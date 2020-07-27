@@ -22,7 +22,7 @@ footer{
     height: 30%;
     width: 60%;
     text-align: center; 
-    color: brown;
+    color: whitesmoke;
     
 }
 
@@ -59,21 +59,27 @@ ul{
     background-size: cover;
 
 }.collapsible{
+    display: flex;
     background-color: transparent;
     cursor: pointer;
     padding: 18px;
     width: 40%;
     border: none;
-    text-align: right;
+    text-align: left;
     outline: none;
     font-size: 15px;
+    color: whitesmoke;
+    
 }
 
-.active{
-    background-color: green;
+p, a {
+    color: whitesmoke;
 }
+/* .active{
+    background-color: green;
+} */
 .collapsible:hover {
-  background-color:transparent;
+  background-color: transparent;
 }
 
 .content {
@@ -81,6 +87,12 @@ ul{
   display: none;
   overflow: hidden;
   background-color: forestgreen;
+}
+
+li{
+    background-color:forestgreen;
+    color: whitesmoke;
+    font-size: 20px;
 }
 
  h1{
