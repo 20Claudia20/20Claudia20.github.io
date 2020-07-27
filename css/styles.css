@@ -4,46 +4,60 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    color: slategrey;
+    color: rgb(9, 201, 35);
  }
  
 body , html{
      height: 100%;
-     /* color: turquoise; */
+ }
+
+ .content {
+     color: rgb(2, 37, 2);
  }
 
 footer{
     position: fixed;
     left: 0;
-    bottom: 0;
-    width: 100%;
-    /* color: aquamarine; */
+    bottom: 0; 
+    height: 30%;
+    width: 60%;
     text-align: center; 
+    color: brown;
+    
 }
 
 header {
     text-align: center;
-}
+    /* opacity: ;*/
+} 
 
 img{
  height: 30%;
 }
-/* nav , a {
+ nav , a {
     text-align: right;
-    /* color: aquamarine;
-     */
-/* }  */ 
+     color: aquamarine;
+    
+ }   
+
+ nav {
+     display: block;
+ }
+
 
 ul{
     list-style-type: none;
 }
 
 .container  { 
-    background-image: url("/css/images/downtown-columbus-ohio.jpg"); 
+    display: box;
+    background-image: url("./images/houseplant.jpg"); 
     height: 100%;
-    opacity: 0.8;
- }
-
+    width: 100%;
+    opacity: 0.5;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
  h1{
     text-align: center;
     padding: 14px, 25px;
@@ -51,45 +65,5 @@ ul{
     height: 50%; 
     width: 100%;
     font-size: 30pt;
-   /* height: 52px;
-   width: 2000px; */
-    /* position: fixed;
-    line-height: 2rem;
-    top: 40px;
-    color: cadetblue;
-    background-color: rgba(39, 31,77, 0.4);
-    justify-content: right; */
+   height: 52px;
   }
-/* 
-  a:visited{
-      background-color: royalblue;
-      color: aqua;
-      border:ridge;
-      padding: 14px 25px;
-      border-radius: 48%;
-      position: relative;
-  } */
-
-.collapsible{
-    background-color: blueviolet;
-    color: burlywood;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-}
-  
-.active, .collapsible:hover {
-    background-color: cadetblue;
-}
-
-.content {
-    padding: 0 18px;
-    display: none;
-    overflow: hidden;
-    background-color: crimson;
-}
- 

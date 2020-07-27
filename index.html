@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Claudia Barrales</title>
-    <link href="/css/layout.css" rel="layouts" type="text/css" />
+    <link href="/css/layout.css" rel="stylesheet" />
     <link href="css/styles.css" rel="stylesheet" />
     <!-- <link href="/css/images/downtown-columbus-ohio.jpg" rel="downtown-columbus-ohio" /> -->
   </head>
@@ -18,20 +18,24 @@
       </div>
         <nav>
           <!-- <ul class="nav__list">
-            <li><a href="/AboutMe.html">About Me</a></li>
-            <li><a href="/Contact.html">Contact Me</a></li>
-            <li><a href="/skills.html">Skills</a></li>
-            <li><a href="/Projects.html">Projects</a></li>
+            <li><a href="/AboutMe.html" class="sideBarLinks">About Me</a></li>
+            <li><a href="/Contact.html"  class="sideBarLinks">Contact Me</a></li>
+            <li><a href="/skills.html"  class="sideBarLinks">Skills</a></li>
+            <li><a href="/Projects.html" class="sideBarLinks">Projects</a></li>
           </ul> -->
-          <button type="button" class="collapsible">About Me  </button>
+           <button type="button" class="collapsible">About Me  </button>
           <div class="content">
-            <p> this is all about me section</p>
+            <p>  Born in sunny California moved to Ohio and found my self in the middle of a booming
+              tech city. My interest in Software Development sparked while I was working at a Tech startup, where I was first
+              exposed to the developers life. Teamwork, problem solving and attention to details traits came natural to me. 
+              I quickly realized that it's not just about coding but being creative building something out of an mere idea.
+              I am thrilled to join this thriving industry and see projects come to life. </p>
           </div>
           <button type="button" class="collapsible">Contact Me  </button>
           <div class="content">
             <p> this section is my contact info</p>
-          </div>
-        
+          </div> 
+        </nav>
           <script>
             var coll = document.getElementsByClassName("collapsible");
             var i;
@@ -47,15 +51,18 @@
                 }
               });
             }
-          </script>
-          
-            
-        </nav>
+          </script> 
       </header>
-      <img src="/css/images/ClaudiaPic.jpg" alt="Picture of Claudia" width="200" height="450" align="left"/>
-    <footer>
+
+      <img src="/css/images/ClaudiaPic.jpg" alt="Picture of Claudia" width="200" height="450" aling="left"/>
+    <div class="contact">
+      <footer>
       <p>©Claudia Barrales 2020</p>
+      <img src="./css/images/github.png" alt="Github Image">
+      <img src="./css/images/linkpic.png" alt="LinkedIn Image">
+      <img src="./css/images/gmailpic.png" alt="Gmail Image">
     </footer>
+  </div>
   </div>
   </body>
 </html>
