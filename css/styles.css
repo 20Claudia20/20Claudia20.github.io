@@ -1,85 +1,57 @@
-@import url('https://fonts.google.com/specimen/Cuprum#standard-styles');
+@import url("https://fonts.google.com/specimen/Cuprum#standard-styles");
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    color: rgb(9, 201, 35);
- }
- 
-body , html{
-     height: 100%;
- }
-
- .content {
-     color: rgb(2, 37, 2);
- }
-
-footer{
-    position: fixed;
-    left: 0;
-    bottom: 0; 
-    height: 30%;
-    width: 60%;
-    text-align: center; 
-    color: whitesmoke;
-    
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgb(9, 201, 35);
 }
 
-header {
-    text-align: center;
-    /* opacity: ;*/
-} 
-
-img{
- height: 30%;
-}
- /* nav , a {
-    text-align: right;
-     color: aquamarine;
-    
- }    */
-/* 
- nav {
-     display: block;
- }
-
-
-ul{
-    list-style-type: none;
-} */
-
-.container  { 
-    display: box;
-    background-image: url("./images/columbus-ohio\ \(2\).jpg"); 
-    height: 100%;
-    width: 100%;
-    opacity: 0.5;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-}.collapsible{
-    display: flex;
-    background-color: transparent;
-    cursor: pointer;
-    padding: 18px;
-    width: 40%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-    color: whitesmoke;
-    
+h1 {
+  text-align: center;
+  padding: 14px, 25px;
+  margin: 0 auto;
+  height: 50%;
+  width: 100%;
+  font-size: 30pt;
+  height: 52px;
 }
 
-p, a {
-    color: whitesmoke;
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 30%;
+  width: 60%;
+  text-align: center;
+  color: whitesmoke;
 }
-/* .active{
-    background-color: green;
-} */
+
+.collapsible {
+  display: flex;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 18px;
+  width: 40%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  color: whitesmoke;
+}
+
 .collapsible:hover {
   background-color: transparent;
+}
+
+.container {
+  display: box;
+  background-image: url("./images/phothos2.jpg");
+  height: 100%;
+  width: 100%;
+  /* opacity: 0.5; */
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .content {
@@ -88,19 +60,3 @@ p, a {
   overflow: hidden;
   background-color: forestgreen;
 }
-
-li{
-    background-color:forestgreen;
-    color: whitesmoke;
-    font-size: 20px;
-}
-
- h1{
-    text-align: center;
-    padding: 14px, 25px;
-    margin: 0 auto;
-    height: 50%; 
-    width: 100%;
-    font-size: 30pt;
-   height: 52px;
-  }
