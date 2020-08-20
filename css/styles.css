@@ -5,7 +5,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: rgb(22, 233, 50);
+  color: rgb(15, 197, 39);
   font-family: "Lobster" sans-serif;
  
 }
@@ -22,31 +22,34 @@ body, html {
 }
 
 .about__me {
+  position: fixed;
   text-align: center;
   padding: 40px;
   font-size: 25pt;
   background-color: #C8E6C9;
-  top: 30%;
+  top: 10%;
 }
 
 .skills {
+  position: fixed;
  text-align: center;
  padding: 40px;
   font-size: 25pt;
   background-color: #C8E6C9;
-  top: 30%;
+  top: 10%;
 }
 
 .projects {
   position: fixed;
   background-color: #C8E6C9;
-  padding: 40px;
-  top: 20%;
+  padding: 30px;
+  top:2%;
+  bottom: 5%; 
   left: 20%;
   text-align:  center;
   font-size: 21pt;
   width: 55%;;
-  height: 70%;
+  height: 95%;
 }
 
 h1 ,h2 {
@@ -55,9 +58,13 @@ h1 ,h2 {
   padding-bottom: 10px;
 }
 
+h3 {
+  padding-top: 10px;
+}
 
-img {
-  height: 20%;
+.contact img {
+  height: 15%;
+  width: auto;
 
 }
 
@@ -91,6 +98,7 @@ li {
   left: 20%;
   top: 45%;
   height: 100%;
+  width: 40%;
 
 }
 
