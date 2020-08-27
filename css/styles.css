@@ -14,11 +14,11 @@ body, html {
   height: 100%;
 }
 
-h1 ,h2 {
+/* h1 ,h2 {
   background-color: #C8E6C9;
    width: 100%;
    padding-bottom: 10px;
- }
+ } */
  
  h3 {
    padding-top: 10px;
@@ -26,6 +26,8 @@ h1 ,h2 {
 
 img {
   border-radius: 50%;
+  width: 400px ;
+  height: 400px;
 }
 
  li {
@@ -95,10 +97,13 @@ footer {
 }
 
 .header__title {
+  display: grid;
   text-align: center;
   font-size: 15pt;
-  height: 52px;
-  padding: 30px;
+  height: 950px;
+  width: 450px;
+  padding: 30px; 
+  background-color: rgb(4, 90, 4);
 }
 
 .my__image {
