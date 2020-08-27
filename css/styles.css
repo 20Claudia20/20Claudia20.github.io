@@ -5,46 +5,47 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: rgb(15, 197, 39);
+  /* color: rgb(15, 197, 39); */
   font-family: "Lobster" sans-serif;
  
 }
 
-body, html {
+ a {
+  color: rgb(15, 197, 39);
+ }
+body, html  {
   height: 100%;
+  color: rgb(15, 197, 39);
 }
 
-/* h1 ,h2 {
-  background-color: #C8E6C9;
-   width: 100%;
-   padding-bottom: 10px;
- } */
  
  h3 {
    padding-top: 10px;
  }
 
-img {
+.my__image {
   border-radius: 50%;
-  width: 400px ;
+  width: 390px ;
   height: 400px;
 }
 
  li {
   margin: 5px;
   padding: 15px;
+  color: rgb(15, 197, 39);
+  
 }
 
 footer {
   position: fixed;
-  left: 35%;
   top: 90%;
   bottom: 10%;
   height: 30%;
-  width: 30%;
+  width: 22%;
   text-align: center;
   font-size: 25px;
 }
+
 
 .about__me {
   position: fixed;
@@ -97,23 +98,16 @@ footer {
 }
 
 .header__title {
-  display: grid;
+  display: box;
   text-align: center;
   font-size: 15pt;
-  height: 950px;
+  height: 938px;
   width: 450px;
   padding: 30px; 
+  color: rgb(189, 184, 184);
   background-color: rgb(4, 90, 4);
 }
 
-.my__image {
-  position: fixed;
-  left: 20%;
-  top: 45%;
-  height: 100%;
-  width: 40%;
-
-}
 
 .nav__list {
   position: fixed;
