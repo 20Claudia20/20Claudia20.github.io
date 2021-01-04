@@ -86,7 +86,7 @@ footer {
 
 .container {
   display: box;
-  background-image: url("./images/phothos2.jpg");
+  background-image: url("./images/manyplants.jpg");
   height: 100%;
   width: 100%;
   opacity: 0.8;
@@ -110,7 +110,7 @@ footer {
   width: 450px;
   padding: 30px; 
   color: rgb(189, 184, 184);
-  background-color: rgb(4, 90, 4);
+  /* background-color: rgb(4, 90, 4); */
 }
 
 
