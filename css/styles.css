@@ -5,7 +5,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /* color: rgb(15, 197, 39); */
   font-family: "Lobster" sans-serif;
  
 }
@@ -86,10 +85,11 @@ footer {
 
 .container {
   display: box;
-  background-image: url("./images/manyplants.jpg");
+  background-image: url("./images/houseplant.jpg");
   height: 100%;
-  width: 100%;
+  /* width: 100%; */
   opacity: 0.8;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -110,7 +110,7 @@ footer {
   width: 450px;
   padding: 30px; 
   color: rgb(189, 184, 184);
-  /* background-color: rgb(4, 90, 4); */
+  background-color: rgb(4, 90, 4);
 }
 
 
