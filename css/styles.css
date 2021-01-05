@@ -9,7 +9,7 @@
  
 }
 
- a {
+a {
   color: rgb(15, 197, 39);
  }
 
@@ -83,7 +83,7 @@ footer {
   background-color: transparent;
 } */
 
-.container {
+.main-portfolio {
   display: box;
   background-image: url("./images/houseplant.jpg");
   height: 100%;
