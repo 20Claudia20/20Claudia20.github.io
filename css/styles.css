@@ -34,8 +34,9 @@ body, html  {
 }
 
  li {
-  margin: 5px;
+  margin-right: 75px;
   padding: 15px;
+  
   color: rgb(15, 197, 39);
   
 }
