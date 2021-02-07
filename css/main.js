@@ -1,0 +1,5 @@
+function openCity (evt, cityName) {
+    
+
+
+}
