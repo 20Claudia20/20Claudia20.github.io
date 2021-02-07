@@ -7,6 +7,7 @@
   <title>Claudia Barrales</title>
   <link href="/css/layout.css" rel="stylesheet" />
   <link href="css/styles.css" rel="stylesheet" />
+  <link href="/css/main.js"/>
 </head>
 
 <body>
@@ -16,13 +17,11 @@
         <img class="my__image" src="/css/images/ClaudiaPic.jpg" alt="Picture of Claudia" />
         <h1>Claudia Barrales</h1>
         <h2>Software Developer</h2>
-        <nav>
           <div class="tabs">
-            <button class="tablinks">Get To Know Me</button>
-            <button class="tablinks">Skills</button>
-            <button class="tablinks">Projects</button>
+            <button class="tablinks" onclick="openCity(event, 'Get To Know Me')"> Get To Know Me</button>
+            <button class="tablinks" onclick="openCity(event, 'Skills')">Skills</button>
+            <button class="tablinks" onclick="openCity(event, 'Projects')">Projects</button>
           </div>
-        </nav>
       </div>
     </header>
 
