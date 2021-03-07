@@ -8,7 +8,7 @@
   font-family: "Lobster" sans-serif;
  
 }
-
+/* 
 a {
   color: rgb(15, 197, 39);
  }
@@ -74,14 +74,14 @@ footer {
   background-image: url("./images/houseplant.jpg");
   height: 100%;
   /* width: 100%; */
-  opacity: 0.8;
+  /* opacity: 0.8;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 
-}
+} */
 
-.content {
+/* .content {
   padding: 0 18px;
   display: none;
   overflow: hidden;
@@ -128,11 +128,12 @@ footer {
   font-size: 25pt;
   background-color: #C8E6C9;
   top: 10%;
-}
+} */ 
 
 
 .tab {
   float: left;
+  overflow: hidden;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
   width: 30%;
@@ -150,6 +151,7 @@ footer {
   text-align: left;
   cursor: pointer;
   transition: 0.3s;
+  font-size: 17px;
 }
 
 .tab button:hover {
